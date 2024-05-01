@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Restaurante Posh</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logops.jpg" alt="Logo de Restaurante" style="height: 40px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <div class="contact-info">
+                <h1>Informacion de Contacto</h1>
+                <ul>
+                    <li><strong>Ubicacion:</strong> Av. de Mayo 0444 </li>
+                    <li><strong>Telefono:</strong> +5491166666</li>
+                    <li><strong>Pais:</strong> Argentina</li>
+                    <li><strong>Localidad:</strong> Buenos Aires</li>
+                    <li><strong>Codigo Postal:</strong> C444</li>
+                </ul>
+                <h2>WhatsApp</h2>
+                <a href="https://wa.me/XXXXXXXXXX?text=Hola" target="_blank">Contacto de WhatsApp</a>
+            </div>
+            <div>
+                <h1>Envianos tu consulta</h1>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="correo">Correo</label>
+                    <input type="email" id="correo" name="correo" required>
+
+                    <label for="comentario">Comentario</label>
+                    <textarea name="comentario" id="comentario" rows="4" required></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <section class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.665832442344!2d-58.37813478477278!3d-34.60888268046068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3f035bd877%3A0x1847f181b1c03e79!2sAv.%20de%20Mayo%20444%2C%20C1084AAG%20CABA!5e0!3m2!1sen!2sar!4v1619801688858!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </main>
+</body>
+</html>
