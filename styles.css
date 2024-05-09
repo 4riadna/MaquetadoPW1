@@ -213,7 +213,7 @@ main {
 
 .contact-form label {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .contact-form input[type="text"],
@@ -224,6 +224,7 @@ main {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
+
 }
 
 .contact-form button {
@@ -238,3 +239,21 @@ main {
 .contact-form button:hover {
     background-color: #0056b3;
 }
+  
+  .social-nav {
+    background-color: #161313;
+    padding: 10px;
+    text-align: start;
+  }
+  
+  .social-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .social-nav a:hover {
+    color: #5c0404;
+  }
+  
