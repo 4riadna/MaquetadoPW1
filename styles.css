@@ -124,12 +124,11 @@ main {
 .carta h4 {
     font-size: 40px;
     margin-bottom: 30px;
-    background-color: #4a1616;
-    color: #120101;
+    background-color: #3b1111;
+    color: #110101;
 }
 
 .article p {
-    display: flex;
     align-items: end;
     font-size: 15px;
     margin-bottom: 0;
