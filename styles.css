@@ -45,7 +45,7 @@ nav ul {
 }
 
 nav ul li a:hover {
-    color: #784747;
+    color: #5c0404;
 }
 
 main {
@@ -69,7 +69,7 @@ main {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #451a1a;
+    background-color: #431818;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -170,6 +170,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    background-color: #ebebebcc;
 }
 
 .contact-info,
@@ -194,9 +195,17 @@ main {
 
 .contact-info h1,
 .contact-form h1 {
-    color: #601717;
+    color: #810707;
     font-size: 24px;
     margin-bottom: 10px;
+}
+
+.contact-info h2 {
+    color: #750909;
+}
+
+.contact-info a {
+    color: #5b3636;
 }
 
 .contact-info ul {
@@ -210,6 +219,8 @@ main {
 
 .contact-form {
     max-width: 400px;
+    margin-left: auto;
+    margin-right: 250px;
 }
 
 .contact-form label {
@@ -228,7 +239,7 @@ main {
 }
 
 .contact-form button {
-    background-color: #007bff;
+    background-color: #280202;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -237,7 +248,7 @@ main {
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #610303;
 }
   
 .social-nav {
@@ -247,7 +258,7 @@ main {
 }
   
 .social-nav a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
     font-size: 24px;
