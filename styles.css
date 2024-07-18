@@ -132,7 +132,7 @@ main {
     transition: transform 0.5s;
     background-image: linear-gradient(
         0deg,
-        #3c1c1c,
+        #270606,
         #492626,
         #240c0c
     );
@@ -182,7 +182,7 @@ main {
 }
 
 .carta h4 {
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 30px;
     background-image: linear-gradient(
         214deg,
@@ -196,7 +196,7 @@ main {
 }
 
 .article p {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 0;
     color: #c1acac;
     border-radius: 16px;

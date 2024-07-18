@@ -109,8 +109,8 @@ main {
 
 .contact-info h1,
 .contact-form h1 {
-    color: #200303c2;
-    font-size: 24px;
+    color: #989191;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
@@ -145,7 +145,8 @@ main {
 }
 
 .contact-info ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    color: #e8d9d9;
 }
 
 .contact-form {
@@ -157,6 +158,8 @@ main {
 .contact-form label {
     display: block;
     margin-bottom: 5px;
+    color: #dcc5c5;
+    margin: 3;
 }
 
 .contact-form input[type="text"],
