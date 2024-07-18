@@ -18,7 +18,7 @@ h1, p, ul {
 
 
 header {
-    background-color: #161313;
+    background-color: #0a0909;
     color: #674747;
     padding: 10px 0;
     display: flex;
@@ -186,7 +186,7 @@ main {
 }
   
 .social-nav {
-    background-color: #161313;
+    background-color: #0a0909;
     padding: 10px;
     text-align: start;
 }
